@@ -1,6 +1,6 @@
-number = int(input("Enter a number: "))
-
-if number % 7 == 0:
-    print("{number} is divisible by 7.")
-else:
-    print("{number} is not divisible by 7.")
+n = int(input("enter the no."))
+i=1
+while(i<=n):
+    if(n%i==0):
+        print(i)
+        i+=1
